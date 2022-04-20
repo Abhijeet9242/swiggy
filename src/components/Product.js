@@ -2,8 +2,11 @@ import styled from "./Product.module.css";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getData, sortData } from "../Redux/ProductData/action";
+import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Product = () => {
+  const navigate = useNavigate();
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -14,6 +17,10 @@ const Product = () => {
 
   const handlingSort = () => {
     dispatch(sortData());
+  };
+
+  const handleProductDetails = (prodid) => {
+    navigate(`/product/${prodid}`);
   };
 
   return (
@@ -46,7 +53,11 @@ const Product = () => {
       </div>
       <div className={styled.productmaindiv}>
         {data.map((item, i) => (
-          <div className={styled.itemdiv} key={i}>
+          <div
+            className={styled.itemdiv}
+            key={i}
+            onClick={() => handleProductDetails(item.id)}
+          >
             <div className={styled.imgdiv}>
               <img src={item.img_url} alt="" />
             </div>
