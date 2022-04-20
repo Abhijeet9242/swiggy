@@ -1,13 +1,14 @@
 import { STORE_PRODUCTS_DATA } from "./actionType";
 
-const initstate = {
-  products: [],
+const init = {
+  productdata: [],
 };
-export const productsReducer = (state = initstate, { type, payload }) => {
+const productsReducer = (state = init, { type, payload }) => {
   switch (type) {
     case STORE_PRODUCTS_DATA:
-      return { ...state, products: payload };
+      return { ...state, productdata: payload };
     default:
       return state;
   }
 };
+export { productsReducer };

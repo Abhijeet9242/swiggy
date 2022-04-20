@@ -4,7 +4,7 @@ const initstate = {
   showlogin: false,
 };
 
-export const loginReducer = (state = initstate, { type, payload }) => {
+const loginReducer = (state = initstate, { type, payload }) => {
   switch (type) {
     case SHOW_LOGIN:
       return { ...state, login: payload };
@@ -12,3 +12,5 @@ export const loginReducer = (state = initstate, { type, payload }) => {
       return state;
   }
 };
+
+export { loginReducer };

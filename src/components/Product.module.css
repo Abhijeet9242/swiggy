@@ -1,0 +1,94 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.maincont{
+    width:100%;
+}
+.filterdiv{
+    width:90%;
+    border:1px solid red;
+    height:50px;
+    margin: auto;
+    display: flex;
+}
+.filterleft{
+    width:20%;
+    border:1px solid yellowgreen
+}
+.filterright{
+    width:80%;
+    border:1px solid blue;
+}
+.filterlistdiv{
+    width:80%;
+    border:1px solid blue;
+   margin-left: 20%;;
+}
+ .ul{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+ 
+}
+/* .ul > li{
+    list-style-type: none;
+}  */
+
+
+.productmaindiv{
+    width:89%;
+    /* height:300px; */
+    /* background-color: red; */
+    /* color:blue; */
+    border:1px solid green;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;;
+}
+.itemdiv{
+    width:298px;
+    height:376px;
+    border:1px solid brown;
+    margin:0px 0px 85px;
+}
+.imgdiv{
+    width:254px;
+    height:160px;
+    border:1px solid green;
+    margin: auto;
+    
+}
+.imgdiv > img{
+    width:100%;
+    height:100%;
+}
+.dishname{
+    width:254px;
+    height:20.40px;
+    font-size: 17px;;
+    color:#282C3F;
+    margin: auto;
+    border:1px solid green
+}
+.itemcategory{
+    width:254px;
+    height: 15.60px;
+    margin: auto;
+    padding-left: 5px;;
+    font-size: 12px;;
+    border:1px solid green
+}
+
+.itemdes{
+    width:254px;
+    height:20px;
+    margin: 18px 0px 0px 0px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
