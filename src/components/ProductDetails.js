@@ -45,7 +45,6 @@ const ProductDetails = () => {
         <div key={i}>
           <h1>{item.name}</h1>
           <h1>{item.category}</h1>
-          <h1>{item.price}</h1>
         </div>
       ))}
     </div>
