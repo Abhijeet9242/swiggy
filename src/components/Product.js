@@ -15,6 +15,8 @@ const Product = () => {
 
   const data = useSelector((state) => state.productState.productdata);
 
+  console.log(data);
+
   const handlingSort = () => {
     dispatch(sortData());
   };

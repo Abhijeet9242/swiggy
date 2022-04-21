@@ -8,7 +8,7 @@
           "delivery_time":27,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/lzgkcy0dfmtpyrxlgjhu",
-          "categories":["Recommended","Burgers","Pizzas","Sandwiches"],
+          "categories":["Recommended","Burgers","Pizzas"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -19,7 +19,7 @@
           "delivery_time":40,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/rv8vzoxlvdb80jwvx21h",
-          "categories":["Recommended","South Indian"],
+          "categories":["Recommended","South Indian","Sandwiches"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -30,7 +30,7 @@
           "delivery_time":40,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/cb3elcisgcyajxfsom43",
-          "categories":["Recommended","Bakery","Sweets","Indian"],
+          "categories":["Recommended","Bakery","Indian"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -41,7 +41,7 @@
           "delivery_time":41,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/szqn1oevvrtmlrvtrnog",
-          "categories":["Recommended","Biryani","Hyderabadi","Kebabs","North Indian","Mughlai"],
+          "categories":["Recommended","Burgers","Pizzas"],
           "discount":"60% off | Use TRYNEW"
         },
          {
@@ -52,7 +52,7 @@
           "delivery_time":35,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/r3jtq0ipwol9tby1khja",
-          "categories":["Recommended","Continental","Deserts","Beverages"],
+          "categories":["Recommended","South Indian","Sandwiches"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -63,7 +63,7 @@
           "delivery_time":38,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/sst8mf1wkmw9prz0i09f",
-          "categories":["Recommended","Bakery","Fast Food","Snacks"],
+          "categories":["Recommended","Bakery","Indian"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -74,7 +74,7 @@
           "delivery_time":42,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/zgcercg3gfzkmu5heugt",
-          "categories":["Recommended","Chinese","Indian","Biryani"],
+          "categories":["Recommended","Burgers","Pizzas"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -85,7 +85,7 @@
           "delivery_time":41,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ert8nt3vmiuhi9zffqnn",
-          "categories":["Recommended","Indian","Chinese","North Indian"],
+          "categories":["Recommended","South Indian","Sandwiches"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -96,7 +96,7 @@
           "delivery_time":46,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/w41zycfkxdaitqnd0w0r",
-          "categories":["Recommended","Indian","Chinese"],
+          "categories":["Recommended","Bakery","Indian"],
           "discount":"60% off | Use WELCOME60"
         },
          {
@@ -107,7 +107,7 @@
           "delivery_time":41,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/suavctzibxyd3sxz8iz8",
-          "categories":["Recommended","Chinese","Snacks"],
+          "categories":["Recommended","Burgers","Pizzas"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -118,7 +118,7 @@
           "delivery_time":38,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/yqritzxwcq5uiq1sh9ol",
-          "categories":["Recommended","Biryani","Chinese","Indian"],
+          "categories":["Recommended","South Indian","Sandwiches"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -129,7 +129,7 @@
           "delivery_time":45,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/xtxdcbpidjlxpktgse9n",
-          "categories":["Recommended","North Indian"],
+          "categories":["Recommended","Bakery","Indian"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -140,7 +140,7 @@
           "delivery_time":34,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/yemqjojgtrmfsyzzs3sg",
-          "categories":["Recommended","Deserts"],
+          "categories":["Recommended","Burgers","Pizzas"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -151,7 +151,7 @@
           "delivery_time":34,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/sxdvlku43zwsia8lryeh",
-          "categories":["Recommended","Bakery","Sweets"],
+          "categories":["Recommended","South Indian","Sandwiches"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -162,7 +162,7 @@
           "delivery_time":31,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ewxqnqiovzwtnnlhcvbk",
-          "categories":["Recommended","Sweets","Deserts"],
+          "categories":["Recommended","Bakery","Indian"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -173,7 +173,7 @@
           "delivery_time":47,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/rwyr8ytjbvmtyjdx7ayl",
-          "categories":["Recommended","Snacks","Fast Food","Sweets","Bakery"],
+          "categories":["Recommended","Burgers","Pizzas"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -184,7 +184,7 @@
           "delivery_time":29,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/mjjyqkhok7mwkxqptf06",
-          "categories":["Recommended","South Indian","Chinese"],
+          "categories":["Recommended","South Indian","Sandwiches"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -195,7 +195,7 @@
           "delivery_time":27,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/zcyjwznquzdovqypenhz",
-          "categories":["Recommended","Biryani","Indian","Chinese"],
+          "categories":["Recommended","Bakery","Indian"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -206,7 +206,7 @@
           "delivery_time":39,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/m70a5kah1eqnxcdfgazb",
-          "categories":["Recommended","North Indian"],
+          "categories":["Recommended","Burgers","Pizzas"],
           "discount":"10% off"
         },
          {
@@ -217,7 +217,7 @@
           "delivery_time":39,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/jnqwvggeo1ja1x2jjbxe",
-          "categories":["Recommended","Chinese","Snacks"],
+          "categories":["Recommended","South Indian","Sandwiches"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -228,7 +228,7 @@
           "delivery_time":27,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/jq60nvr7sdo5ajeyas2l",
-          "categories":["Recommended","North Indian","Chinese"],
+          "categories":["Recommended","Bakery","Indian"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -239,7 +239,7 @@
           "delivery_time":17,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/iehiemnocsdvcqyyyw6v",
-          "categories":["Recommended","Deserts","Ice Cream"],
+          "categories":["Recommended","Burgers","Pizzas"],
           "discount":"50% off | Use WELCOME50"
         },
          {
@@ -250,7 +250,7 @@
           "delivery_time":40,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/kw1kpbbvap58iribmma2",
-          "categories":["Recommended","Sweets"],
+          "categories":["Recommended","South Indian","Sandwiches"],
           "discount":"15% off | Use WELCOME15"
         },
          {
@@ -261,14 +261,103 @@
           "delivery_time":48,
           "isExlusive": true,
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/xo9oiucwe8qirbt9kkel",
-          "categories":["Recommended","Indian","Chinese"],
+          "categories":["Recommended","Bakery","Indian"],
           "discount":"50% off | Use WELCOME50"
         }
   ],
 
   "item":[
+
+    {
+        "id":1,
+        "category":"Recommended",
+        "name":"Chicken Burger",
+        "price":95,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vwqswu6sdtiqw4qgmhoo",
+        "veg":false,
+        "best_seller":false,
+        "restaurant_id":1
+    },
+    {
+        "id":2,
+        "category":"Recommended",
+        "name":"Mutton Burger",
+        "price":115,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ogbet6tawbzh9hea5yx8",
+        "veg":false,
+        "best_seller":true,
+        "restaurant_id":1
+    },
+    {
+        "id":3,
+        "category":"Recommended",
+        "name":"Regular Cheese Onion Capsicum",
+        "price":100,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/q7ec88yg8vrotrb9wtv3",
+        "veg":true,
+        "best_seller":false,
+        "restaurant_id":1
+    },
+    {
+        "id":4,
+        "category":"Pizzas",
+        "name":"Regular Cheese Onion, Capsicum, Tomato",
+        "price":105,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cyk1nbqvxl7fbcan9iym",
+        "veg":true,
+        "best_seller":false,
+        "restaurant_id":1
+    },
+    {
+        "id":5,
+        "category":"Pizzas",
+        "name":"Veg Regular Hot & Spicy",
+        "price":135,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bnsrqraxiue5cksnrac3",
+        "veg":true,
+        "best_seller":true,
+        "restaurant_id":1
+    },
+    {
+        "id":6,
+        "category":"Burgers",
+        "name":"Veg Burger Meal",
+        "price":145,
+        "description":"Burger, coco cola and french fries.",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zu4nv8n3x82yvqg2lh47",
+        "veg":true,
+        "best_seller":true,
+        "restaurant_id":1
+    },
+    {
+        "id":7,
+        "category":"Burgers",
+        "name":"Veg Burger With Cheese",
+        "price":75,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tet5mv0m7f3h7cf5sr2u",
+        "veg":true,
+        "best_seller":true,
+        "restaurant_id":1
+    },
+    {
+        "id":8,
+        "category":"Recommended",
+        "name":"Paneer Burger",
+        "price":85,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xqdtefnghjsvin6txrf5",
+        "veg":true,
+        "best_seller":true,
+        "restaurant_id":1
+    },
       {
-          "id":1,
+          "id":9,
           "category":"South Indian",
           "name":"Plain Dosa",
           "price":180,
@@ -279,7 +368,7 @@
           "restaurant_id":2
       },
       {
-          "id":2,
+          "id":10,
           "category":"South Indian",
           "name":"Masala Dosa",
           "price":150,
@@ -287,10 +376,10 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/p3dqrypfr9gdpnz6qinh",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":1
+          "restaurant_id":2
       },
       {
-          "id":3,
+          "id":11,
           "category":"South Indian",
           "name":"Idli Sambhar",
           "price":150,
@@ -298,10 +387,10 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fbpdhxhoi3fak1skagum",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":1
+          "restaurant_id":2
       },
       {
-          "id":4,
+          "id":12,
           "category":"Recommended",
           "name":"Aloo Tikki With Choley",
           "price":135,
@@ -309,10 +398,10 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wqrysplo0yzelnojrsrr",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":1
+          "restaurant_id":2
       },
       {
-          "id":5,
+          "id":13,
           "category":"Recommended",
           "name":"Choley Bhature",
           "price":150,
@@ -320,129 +409,42 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/artcc2j49vpgn4qi4mzj",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":1
-      },
-      {
-          "id":6,
-          "category":"Recommended",
-          "name":"Veg Burger Meal",
-          "price":145,
-          "description":"Burger, coco cola and french fries.",
-          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zu4nv8n3x82yvqg2lh47",
-          "veg":true,
-          "best_seller":true,
-          "restaurant_id":1
-      },
-      {
-          "id":7,
-          "category":"Recommended",
-          "name":"Veg Burger With Cheese",
-          "price":75,
-          "description":"",
-          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tet5mv0m7f3h7cf5sr2u",
-          "veg":true,
-          "best_seller":true,
-          "restaurant_id":1
-      },
-      {
-          "id":8,
-          "category":"Recommended",
-          "name":"Paneer Burger",
-          "price":85,
-          "description":"",
-          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xqdtefnghjsvin6txrf5",
-          "veg":true,
-          "best_seller":true,
-          "restaurant_id":1
-      },
-      {
-          "id":9,
-          "category":"Recommended",
-          "name":"Chicken Burger",
-          "price":95,
-          "description":"",
-          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vwqswu6sdtiqw4qgmhoo",
-          "veg":false,
-          "best_seller":false,
-          "restaurant_id":1
-      },
-      {
-          "id":10,
-          "category":"Recommended",
-          "name":"Mutton Burger",
-          "price":115,
-          "description":"",
-          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ogbet6tawbzh9hea5yx8",
-          "veg":false,
-          "best_seller":true,
-          "restaurant_id":1
-      },
-      {
-          "id":11,
-          "category":"Pizzas",
-          "name":"Regular Cheese Onion Capsicum",
-          "price":100,
-          "description":"",
-          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/q7ec88yg8vrotrb9wtv3",
-          "veg":true,
-          "best_seller":false,
-          "restaurant_id":1
-      },
-      {
-          "id":12,
-          "category":"Pizzas",
-          "name":"Regular Cheese Onion, Capsicum, Tomato",
-          "price":105,
-          "description":"",
-          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cyk1nbqvxl7fbcan9iym",
-          "veg":true,
-          "best_seller":false,
-          "restaurant_id":1
-      },
-      {
-          "id":13,
-          "category":"Pizzas",
-          "name":"Veg Regular Hot & Spicy",
-          "price":135,
-          "description":"",
-          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bnsrqraxiue5cksnrac3",
-          "veg":true,
-          "best_seller":true,
-          "restaurant_id":1
+          "restaurant_id":2
       },
       {
           "id":14,
-          "category":"Burgers",
+          "category":"Recommended",
           "name":"Veg Burger Meal",
           "price":145,
           "description":"Burger, coco cola and french fries.",
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zu4nv8n3x82yvqg2lh47",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":1
+          "restaurant_id":2
       },
       {
           "id":15,
-          "category":"Burgers",
+          "category":"Recommended",
           "name":"Veg Burger With Cheese",
           "price":75,
           "description":"",
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tet5mv0m7f3h7cf5sr2u",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":1
+          "restaurant_id":2
       },
       {
           "id":16,
-          "category":"Burgers",
+          "category":"Recommended",
           "name":"Paneer Burger",
           "price":85,
           "description":"",
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xqdtefnghjsvin6txrf5",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":1
+          "restaurant_id":2
       },
+      
       {
           "id":17,
           "category":"Sandwiches",
@@ -452,7 +454,7 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ap7akx97uejjsnrqkysa",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":1
+          "restaurant_id":2
       },
       {
           "id":18,
@@ -463,40 +465,40 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yximgycbpooveluistv5",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":1
+          "restaurant_id":2
       },
       {
           "id":19,
-          "category":"Sandwiches",
+          "category":"Recommended",
           "name":"Chicken Grilled Sandwich",
           "price":105,
           "description":"",
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/sftdzwl3qgoa70fwr9rw",
           "veg":false,
           "best_seller":true,
-          "restaurant_id":1
+          "restaurant_id":3
       },
       {
           "id":20,
-          "category":"Sandwiches",
+          "category":"Recommended",
           "name":"Spinach Corn Sandwich",
           "price":120,
           "description":"",
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ntnvsgugfeoqhglyhnii",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":1
+          "restaurant_id":3
       },
       {
           "id":21,
-          "category":"Sandwiches",
+          "category":"Recommended",
           "name":"Omelette Cheese Sandwich",
           "price":110,
           "description":"",
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mzbm7dp0rist5a6e6gxg",
           "veg":false,
           "best_seller":false,
-          "restaurant_id":1
+          "restaurant_id":3
       },
       {
           "id":22,
@@ -522,7 +524,7 @@
       },
       {
           "id":24,
-          "category":"Recommended",
+          "category":"Bakery",
           "name":"Aloo Tikki With Choley",
           "price":135,
           "description":"",
@@ -533,7 +535,7 @@
       },
       {
           "id":25,
-          "category":"Recommended",
+          "category":"Bakery",
           "name":"Choley Bhature",
           "price":150,
           "description":"",
@@ -544,7 +546,7 @@
       },
       {
           "id":26,
-          "category":"Recommended",
+          "category":"Indian",
           "name":"Tandoori Platter",
           "price":450,
           "description":"",
@@ -566,7 +568,7 @@
       },
       {
           "id":28,
-          "category":"Indian",
+          "category":"Bakery",
           "name":"Plain Dosa",
           "price":180,
           "description":"",
@@ -585,6 +587,326 @@
           "veg":true,
           "best_seller":true,
           "restaurant_id":3
+      },
+      {
+        "id":30,
+        "category":"Recommended",
+        "name":"Chicken Burger",
+        "price":95,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vwqswu6sdtiqw4qgmhoo",
+        "veg":false,
+        "best_seller":false,
+        "restaurant_id":4
+    },
+    {
+        "id":31,
+        "category":"Recommended",
+        "name":"Mutton Burger",
+        "price":115,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ogbet6tawbzh9hea5yx8",
+        "veg":false,
+        "best_seller":true,
+        "restaurant_id":4
+    },
+    {
+        "id":32,
+        "category":"Recommended",
+        "name":"Regular Cheese Onion Capsicum",
+        "price":100,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/q7ec88yg8vrotrb9wtv3",
+        "veg":true,
+        "best_seller":false,
+        "restaurant_id":4
+    },
+    {
+        "id":33,
+        "category":"Pizzas",
+        "name":"Regular Cheese Onion, Capsicum, Tomato",
+        "price":105,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cyk1nbqvxl7fbcan9iym",
+        "veg":true,
+        "best_seller":false,
+        "restaurant_id":4
+    },
+    {
+        "id":34,
+        "category":"Pizzas",
+        "name":"Veg Regular Hot & Spicy",
+        "price":135,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bnsrqraxiue5cksnrac3",
+        "veg":true,
+        "best_seller":true,
+        "restaurant_id":4
+    },
+    {
+        "id":35,
+        "category":"Burgers",
+        "name":"Veg Burger Meal",
+        "price":145,
+        "description":"Burger, coco cola and french fries.",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zu4nv8n3x82yvqg2lh47",
+        "veg":true,
+        "best_seller":true,
+        "restaurant_id":4
+    },
+    {
+        "id":36,
+        "category":"Burgers",
+        "name":"Veg Burger With Cheese",
+        "price":75,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tet5mv0m7f3h7cf5sr2u",
+        "veg":true,
+        "best_seller":true,
+        "restaurant_id":4
+    },
+    {
+        "id":37,
+        "category":"Recommended",
+        "name":"Paneer Burger",
+        "price":85,
+        "description":"",
+        "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xqdtefnghjsvin6txrf5",
+        "veg":true,
+        "best_seller":true,
+        "restaurant_id":4
+    },
+      {
+          "id":38,
+          "category":"South Indian",
+          "name":"Plain Dosa",
+          "price":180,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wlghy2jrbzzltfapdz5n",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":5
+      },
+      {
+          "id":39,
+          "category":"South Indian",
+          "name":"Masala Dosa",
+          "price":150,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/p3dqrypfr9gdpnz6qinh",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":5
+      },
+      {
+          "id":40,
+          "category":"South Indian",
+          "name":"Idli Sambhar",
+          "price":150,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fbpdhxhoi3fak1skagum",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":5
+      },
+      {
+          "id":41,
+          "category":"Recommended",
+          "name":"Aloo Tikki With Choley",
+          "price":135,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wqrysplo0yzelnojrsrr",
+          "veg":true,
+          "best_seller":false,
+          "restaurant_id":4
+      },
+      {
+          "id":42,
+          "category":"Recommended",
+          "name":"Choley Bhature",
+          "price":150,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/artcc2j49vpgn4qi4mzj",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":4
+      },
+      {
+          "id":43,
+          "category":"Recommended",
+          "name":"Veg Burger Meal",
+          "price":145,
+          "description":"Burger, coco cola and french fries.",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zu4nv8n3x82yvqg2lh47",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":4
+      },
+      {
+          "id":44,
+          "category":"Recommended",
+          "name":"Veg Burger With Cheese",
+          "price":75,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tet5mv0m7f3h7cf5sr2u",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":4
+      },
+      {
+          "id":45,
+          "category":"Recommended",
+          "name":"Paneer Burger",
+          "price":85,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xqdtefnghjsvin6txrf5",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":4
+      },
+      
+      {
+          "id":46,
+          "category":"Sandwiches",
+          "name":"Veg Grilled Sandwich",
+          "price":80,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ap7akx97uejjsnrqkysa",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":4
+      },
+      {
+          "id":47,
+          "category":"Sandwiches",
+          "name":"Paneer Grilled Sandwich",
+          "price":100,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yximgycbpooveluistv5",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":5
+      },
+      {
+          "id":48,
+          "category":"Recommended",
+          "name":"Chicken Grilled Sandwich",
+          "price":105,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/sftdzwl3qgoa70fwr9rw",
+          "veg":false,
+          "best_seller":true,
+          "restaurant_id":3
+      },
+      {
+          "id":49,
+          "category":"Recommended",
+          "name":"Spinach Corn Sandwich",
+          "price":120,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ntnvsgugfeoqhglyhnii",
+          "veg":true,
+          "best_seller":false,
+          "restaurant_id":6
+      },
+      {
+          "id":50,
+          "category":"Recommended",
+          "name":"Omelette Cheese Sandwich",
+          "price":110,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mzbm7dp0rist5a6e6gxg",
+          "veg":false,
+          "best_seller":false,
+          "restaurant_id":6
+      },
+      {
+          "id":51,
+          "category":"Recommended",
+          "name":"Iced Tea",
+          "price":50,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cxy4vqizob8enluegpyw",
+          "veg":true,
+          "best_seller":false,
+          "restaurant_id":6
+      },
+      {
+          "id":52,
+          "category":"Recommended",
+          "name":"Lemon Masala Soda Sweet",
+          "price":50,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/piz0p9qjcjwcfxbh5orj",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":6
+      },
+      {
+          "id":53,
+          "category":"Bakery",
+          "name":"Aloo Tikki With Choley",
+          "price":135,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wqrysplo0yzelnojrsrr",
+          "veg":true,
+          "best_seller":false,
+          "restaurant_id":6
+      },
+      {
+          "id":54,
+          "category":"Bakery",
+          "name":"Choley Bhature",
+          "price":150,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/artcc2j49vpgn4qi4mzj",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":6
+      },
+      {
+          "id":55,
+          "category":"Indian",
+          "name":"Tandoori Platter",
+          "price":450,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yse6mzl6crhqpvipiukt",
+          "veg":false,
+          "best_seller":false,
+          "restaurant_id":6
+      },
+      {
+          "id":56,
+          "category":"Indian",
+          "name":"Special Veg Thali",
+          "price":340,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/d2ypzxqttehk93ktzdl1",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":6
+      },
+      {
+          "id":57,
+          "category":"Bakery",
+          "name":"Plain Dosa",
+          "price":180,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wlghy2jrbzzltfapdz5n",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":6
+      },
+      {
+          "id":58,
+          "category":"Indian",
+          "name":"Masala Dosa",
+          "price":150,
+          "description":"",
+          "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/p3dqrypfr9gdpnz6qinh",
+          "veg":true,
+          "best_seller":true,
+          "restaurant_id":6
       }
   ]
 }
