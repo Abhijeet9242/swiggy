@@ -12,7 +12,7 @@ export const getData = () => (dispatch) => {
     .then((res) => dispatch(storeProductData(res)));
 };
 
-export const sortData = () => (dispatch) => {
+export const sortDataLH = () => (dispatch) => {
   fetch(" http://localhost:3001/restaurants")
     .then((data) => data.json())
     // .then((res) => console.log(res));
@@ -27,4 +27,48 @@ export const sortData = () => (dispatch) => {
     );
 };
 
+export const sortDataHL = () => (dispatch) => {
+  fetch(" http://localhost:3001/restaurants")
+    .then((data) => data.json())
+    // .then((res) => console.log(res));
+    .then((res) =>
+      dispatch(
+        storeProductData(
+          res.sort((a, b) => {
+            return b.price_for_two - a.price_for_two;
+          })
+        )
+      )
+    );
+};
+
+export const sortDataRating = () => (dispatch) => {
+  fetch(" http://localhost:3001/restaurants")
+    .then((data) => data.json())
+    // .then((res) => console.log(res));
+    .then((res) =>
+      dispatch(
+        storeProductData(
+          res.sort((a, b) => {
+            return a.rating - b.rating;
+          })
+        )
+      )
+    );
+};
+
+export const sortDelivery = () => (dispatch) => {
+  fetch(" http://localhost:3001/restaurants")
+    .then((data) => data.json())
+    // .then((res) => console.log(res));
+    .then((res) =>
+      dispatch(
+        storeProductData(
+          res.sort((a, b) => {
+            return a.delivery_time - b.delivery_time;
+          })
+        )
+      )
+    );
+};
 // export { storeProductData, getData };

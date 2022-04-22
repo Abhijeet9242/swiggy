@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
+import styled from "./ProductDetails.module.css";
+// import styled "./ProductDetails.module.css";
 // import { useDispatch, useSelector } from "react-redux";
 // import { useEffect } from "react";
 // import { getData } from "../Redux/ProductData/action";
 import { useParams } from "react-router-dom";
+import Navbar from "./Navbar";
 
 const ProductDetails = () => {
   const [proddetails, setProddetails] = useState([]);
@@ -40,14 +43,12 @@ const ProductDetails = () => {
   console.log(proddetails);
 
   return (
-    <div>
-      {proddetails.map((item, i) => (
-        <div key={i}>
-          <h1>{item.name}</h1>
-          <h1>{item.category}</h1>
-        </div>
-      ))}
-    </div>
+    <>
+      <Navbar />
+      <div className={styled.detailshead}>
+        <div className={styled.proddetailsmaindiv}></div>
+      </div>
+    </>
   );
 };
 

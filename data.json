@@ -178,7 +178,7 @@
         },
          {
           "id":17,
-          "name":"PLAZA DOSA 101 TYPE IN ONE DOSA",
+          "name":"PLAZA DOSA ",
           "rating":4.3,
           "price_for_two":200,
           "delivery_time":29,
@@ -244,7 +244,7 @@
         },
          {
           "id":23,
-          "name":"CHINAR SWEETS AND NAMKEEN",
+          "name":"CHINAR SWEETS & NAMKEEN",
           "rating":4.6,
           "price_for_two":400,
           "delivery_time":40,

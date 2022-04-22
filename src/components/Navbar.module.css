@@ -3,16 +3,50 @@
     padding:0;
     box-sizing: border-box;
 }
-.nav{
+.mainnavdiv{
     width:100%;
+    height:90px;
+    /* border: 1px solid rgb(157, 204, 157); */
+    /* margin-bottom: 190px; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    position: fixed; 
+    top: 0;
+    left:0;
+    right:0;
+    z-index: 5;
 }
+
 .navleft{
-    width:40%;
-    border:1px solid red;
+    width:25%;
+    /* border:1px solid yellow; */
 }
+.navleft > img{
+    width:80px;
+    height:80px;
+}
+
 .navright{
-    width:60%;
-    border:1px solid green;
+    width:50%;
+    /* border:1px solid red; */
+    /* margin-left: 10%; */
+    
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+}
+.ul > li{
+    list-style-type:none;
+    width:22%;
+   padding:27px;
+   font-size: 18px;
+   font-weight:600;
+   color:#3D4152;
+   
+}
+.ul > li:hover{
+    color:#FFA700
 }
