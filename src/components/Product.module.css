@@ -19,8 +19,9 @@
     
 }
 .homecoro > div{
-    width:260px;
-    height:260px;
+    width:20%;
+    /* height:30%; */
+    height:270px;
     /* background-color: teal; */
 }
 .homecoro > div > img{
@@ -30,6 +31,7 @@
 .homecoro > div:hover{
     /* box-shadow: 5px 5px 15px 15px  #888888; */
     box-shadow: 5px 5px 15px 15px black;
+    cursor: pointer;
 }
 .maincont{
     width:100%;

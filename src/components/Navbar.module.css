@@ -23,8 +23,9 @@
     /* border:1px solid yellow; */
 }
 .navleft > img{
-    width:80px;
-    height:80px;
+    width:150px;
+    height:70px;
+    padding-top: 10px;
 }
 
 .navright{
@@ -45,7 +46,13 @@
    font-size: 18px;
    font-weight:600;
    color:#3D4152;
+   cursor:pointer;
    
+}
+.ul > li > img{
+    width: 18px;
+    /* height: 20px;; */
+    /* padding-right: 20px; */
 }
 .ul > li:hover{
     color:#FFA700

@@ -10,6 +10,7 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/lzgkcy0dfmtpyrxlgjhu",
           "categories":["Recommended","Burgers","Pizzas"],
           "discount":"50% off | Use WELCOME50"
+         
         },
          {
           "id":2,
@@ -277,7 +278,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vwqswu6sdtiqw4qgmhoo",
         "veg":false,
         "best_seller":false,
-        "restaurant_id":1
+        "restaurant_id":1,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":2,
@@ -288,7 +290,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ogbet6tawbzh9hea5yx8",
         "veg":false,
         "best_seller":true,
-        "restaurant_id":1
+        "restaurant_id":1,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":3,
@@ -299,7 +302,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/q7ec88yg8vrotrb9wtv3",
         "veg":true,
         "best_seller":false,
-        "restaurant_id":1
+        "restaurant_id":1,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":4,
@@ -310,7 +314,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cyk1nbqvxl7fbcan9iym",
         "veg":true,
         "best_seller":false,
-        "restaurant_id":1
+        "restaurant_id":1,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":5,
@@ -321,7 +326,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bnsrqraxiue5cksnrac3",
         "veg":true,
         "best_seller":true,
-        "restaurant_id":1
+        "restaurant_id":1,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":6,
@@ -332,7 +338,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zu4nv8n3x82yvqg2lh47",
         "veg":true,
         "best_seller":true,
-        "restaurant_id":1
+        "restaurant_id":1,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":7,
@@ -343,7 +350,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tet5mv0m7f3h7cf5sr2u",
         "veg":true,
         "best_seller":true,
-        "restaurant_id":1
+        "restaurant_id":1,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":8,
@@ -354,7 +362,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xqdtefnghjsvin6txrf5",
         "veg":true,
         "best_seller":true,
-        "restaurant_id":1
+        "restaurant_id":1,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
       {
           "id":9,
@@ -365,7 +374,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wlghy2jrbzzltfapdz5n",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":10,
@@ -376,7 +386,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/p3dqrypfr9gdpnz6qinh",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":11,
@@ -387,7 +398,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fbpdhxhoi3fak1skagum",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":12,
@@ -398,7 +410,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wqrysplo0yzelnojrsrr",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":13,
@@ -409,7 +422,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/artcc2j49vpgn4qi4mzj",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":14,
@@ -420,7 +434,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zu4nv8n3x82yvqg2lh47",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":15,
@@ -431,7 +446,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tet5mv0m7f3h7cf5sr2u",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":16,
@@ -442,7 +458,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xqdtefnghjsvin6txrf5",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       
       {
@@ -454,7 +471,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ap7akx97uejjsnrqkysa",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":18,
@@ -465,7 +483,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yximgycbpooveluistv5",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":2
+          "restaurant_id":2,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":19,
@@ -476,7 +495,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/sftdzwl3qgoa70fwr9rw",
           "veg":false,
           "best_seller":true,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":20,
@@ -487,7 +507,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ntnvsgugfeoqhglyhnii",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":21,
@@ -498,7 +519,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mzbm7dp0rist5a6e6gxg",
           "veg":false,
           "best_seller":false,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":22,
@@ -509,7 +531,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cxy4vqizob8enluegpyw",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":23,
@@ -520,7 +543,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/piz0p9qjcjwcfxbh5orj",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":24,
@@ -531,7 +555,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wqrysplo0yzelnojrsrr",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":25,
@@ -542,7 +567,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/artcc2j49vpgn4qi4mzj",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":26,
@@ -553,7 +579,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yse6mzl6crhqpvipiukt",
           "veg":false,
           "best_seller":false,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":27,
@@ -564,7 +591,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/d2ypzxqttehk93ktzdl1",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":28,
@@ -575,7 +603,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wlghy2jrbzzltfapdz5n",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":29,
@@ -586,7 +615,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/p3dqrypfr9gdpnz6qinh",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":3
+          "restaurant_id":3,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
         "id":30,
@@ -597,7 +627,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/vwqswu6sdtiqw4qgmhoo",
         "veg":false,
         "best_seller":false,
-        "restaurant_id":4
+        "restaurant_id":4,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":31,
@@ -608,7 +639,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ogbet6tawbzh9hea5yx8",
         "veg":false,
         "best_seller":true,
-        "restaurant_id":4
+        "restaurant_id":4,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":32,
@@ -619,7 +651,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/q7ec88yg8vrotrb9wtv3",
         "veg":true,
         "best_seller":false,
-        "restaurant_id":4
+        "restaurant_id":4,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":33,
@@ -630,7 +663,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cyk1nbqvxl7fbcan9iym",
         "veg":true,
         "best_seller":false,
-        "restaurant_id":4
+        "restaurant_id":4,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":34,
@@ -641,7 +675,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/bnsrqraxiue5cksnrac3",
         "veg":true,
         "best_seller":true,
-        "restaurant_id":4
+        "restaurant_id":4,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":35,
@@ -652,7 +687,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zu4nv8n3x82yvqg2lh47",
         "veg":true,
         "best_seller":true,
-        "restaurant_id":4
+        "restaurant_id":4,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":36,
@@ -663,7 +699,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tet5mv0m7f3h7cf5sr2u",
         "veg":true,
         "best_seller":true,
-        "restaurant_id":4
+        "restaurant_id":4,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
     {
         "id":37,
@@ -674,7 +711,8 @@
         "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xqdtefnghjsvin6txrf5",
         "veg":true,
         "best_seller":true,
-        "restaurant_id":4
+        "restaurant_id":4,
+         "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
     },
       {
           "id":38,
@@ -685,7 +723,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wlghy2jrbzzltfapdz5n",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":5
+          "restaurant_id":5,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":39,
@@ -696,7 +735,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/p3dqrypfr9gdpnz6qinh",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":5
+          "restaurant_id":5,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":40,
@@ -707,7 +747,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fbpdhxhoi3fak1skagum",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":5
+          "restaurant_id":5,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":41,
@@ -718,7 +759,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wqrysplo0yzelnojrsrr",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":4
+          "restaurant_id":4,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":42,
@@ -729,7 +771,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/artcc2j49vpgn4qi4mzj",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":4
+          "restaurant_id":4,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":43,
@@ -740,7 +783,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/zu4nv8n3x82yvqg2lh47",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":4
+          "restaurant_id":4,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":44,
@@ -751,7 +795,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/tet5mv0m7f3h7cf5sr2u",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":4
+          "restaurant_id":4,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":45,
@@ -762,7 +807,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xqdtefnghjsvin6txrf5",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":4
+          "restaurant_id":4,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       
       {
@@ -774,7 +820,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ap7akx97uejjsnrqkysa",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":4
+          "restaurant_id":4,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":47,
@@ -785,7 +832,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yximgycbpooveluistv5",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":5
+          "restaurant_id":5,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":48,
@@ -807,7 +855,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ntnvsgugfeoqhglyhnii",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":50,
@@ -818,7 +867,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mzbm7dp0rist5a6e6gxg",
           "veg":false,
           "best_seller":false,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":51,
@@ -829,7 +879,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cxy4vqizob8enluegpyw",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":52,
@@ -840,7 +891,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/piz0p9qjcjwcfxbh5orj",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":53,
@@ -851,7 +903,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wqrysplo0yzelnojrsrr",
           "veg":true,
           "best_seller":false,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":54,
@@ -862,7 +915,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/artcc2j49vpgn4qi4mzj",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":55,
@@ -873,7 +927,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yse6mzl6crhqpvipiukt",
           "veg":false,
           "best_seller":false,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":56,
@@ -884,7 +939,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/d2ypzxqttehk93ktzdl1",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":57,
@@ -895,7 +951,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wlghy2jrbzzltfapdz5n",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       },
       {
           "id":58,
@@ -906,7 +963,8 @@
           "img_url":"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/p3dqrypfr9gdpnz6qinh",
           "veg":true,
           "best_seller":true,
-          "restaurant_id":6
+          "restaurant_id":6,
+           "des":"Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
       }
   ]
 }

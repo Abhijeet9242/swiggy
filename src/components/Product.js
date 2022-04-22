@@ -1,6 +1,7 @@
 import styled from "./Product.module.css";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { singleProductdata } from "../Redux/ProductData/action";
 import {
   getData,
   sortDataLH,
@@ -11,8 +12,11 @@ import {
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
+import { ProductContext } from "../Context/SingleProduct";
 
 const Product = () => {
+  const { setSingle } = useContext(ProductContext);
+
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
@@ -22,7 +26,7 @@ const Product = () => {
 
   const data = useSelector((state) => state.productState.productdata);
 
-  console.log(data);
+  // console.log(data);
 
   //filtering
   const handlingSortLH = () => {
@@ -42,6 +46,14 @@ const Product = () => {
   };
 
   const handleProductDetails = (prodid) => {
+    // navigate(`/product/${prodid}`);
+
+    let res = data.filter((e) => {
+      return e.id === prodid;
+    });
+    // console.log(res);
+    setSingle(res);
+
     navigate(`/product/${prodid}`);
   };
 

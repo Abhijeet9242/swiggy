@@ -1,7 +1,13 @@
 import { STORE_PRODUCTS_DATA } from "./actionType";
+import { SINGLE_PRODUCT_DATA } from "./actionType";
 
 export const storeProductData = (payload) => ({
   type: STORE_PRODUCTS_DATA,
+  payload: payload,
+});
+
+export const singleProductdata = (payload) => ({
+  type: SINGLE_PRODUCT_DATA,
   payload: payload,
 });
 
