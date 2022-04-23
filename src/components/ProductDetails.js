@@ -1,18 +1,21 @@
-import React, { useEffect, useContext } from "react";
+import React, { useEffect, useContext, useState } from "react";
 import styled from "./ProductDetails.module.css";
 // import { useDispatch, useSelector } from "react-redux";
 // import styled "./ProductDetails.module.css";
 // import { useDispatch, useSelector } from "react-redux";
 // import { useEffect } from "react";
 // import { getData } from "../Redux/ProductData/action";
-import { useParams } from "react-router-dom";
+import { Navigate, useNavigate, useParams } from "react-router-dom";
 import Navbar from "./Navbar";
 import { ProductContext } from "../Context/SingleProduct";
 import { TotalPriceContext } from "../Context/TotalPrice";
 import { CartContext } from "../Context/CartContext";
 import { ProductDetailsContext } from "../Context/ProductDetails";
+import { DriveEtaSharp } from "@material-ui/icons";
 
 const ProductDetails = (props) => {
+  const navigate = useNavigate();
+  const [quant, setquant] = useState(1);
   const { proddetails, setProddetails } = useContext(ProductDetailsContext);
   const { single } = useContext(ProductContext);
   const { mycart, setmyCart } = useContext(CartContext);
@@ -117,9 +120,24 @@ const ProductDetails = (props) => {
   // let cartres = localStorage.getItem("cart");
   // console.log(cartres);
 
-  console.log(mycart.length);
+  // console.log(mycart.length);
+
+  // const handleInc = async (incid) => {
+  //   let cdata = await fetch("https://swiggydbjson.herokuapp.com/cart");
+  //   let res = await cdata.json();
+  //   // console.log(res);
+  //   res.find((item) => {
+  //     return item.id === incid;
+  //   });
+  // };
+
+  // const handleDec = () => {};
 
   //subtotal
+
+  const gotoCheckout = () => {
+    navigate("/checkout");
+  };
 
   return (
     <>
@@ -139,18 +157,18 @@ const ProductDetails = (props) => {
                     <p className={styled.categorytext}>{item.name}</p>
                     <p className={styled.categoryname}>{item.categories}</p>
                     <div className={styled.secondflexcont}>
-                      <span>|</span>
-                      <span>
+                      <span className={styled.spanflexcol}>|</span>
+                      <span className={styled.spanflexcol}>
                         {item.rating}{" "}
                         <p className={styled.midledesflex}>100+ Ratings</p>
                       </span>
-                      <span>|</span>
-                      <span>
+                      <span className={styled.spanflexcol}>|</span>
+                      <span className={styled.spanflexcol}>
                         {item.delivery_time + "mins"}
                         <p className={styled.midledesflex}>Delievery Time</p>
                       </span>
-                      <span>|</span>
-                      <span>
+                      <span className={styled.spanflexcol}>|</span>
+                      <span className={styled.spanflexcol}>
                         {"₹" + item.price_for_two}{" "}
                         <p className={styled.midledesflex}>Cost For Two</p>
                       </span>
@@ -227,12 +245,13 @@ const ProductDetails = (props) => {
 
             {mycart.map((item, i) => (
               <div className={styled.prodlistitem} key={i}>
-                <p>▣{item.name}</p>
-                <p className={styled.btnpara}>
-                  <button>+</button>
-                  <button>-</button>
-                </p>
-                <p>₹{item.price}</p>
+                <div>▣{item.name}</div>
+                <div>
+                  <button className={styled.incbtn}>+</button>
+                  <button className={styled.incbtn1}>-</button>
+                </div>
+                <div>{quant}</div>
+                <div>₹{item.price}</div>
               </div>
             ))}
 
@@ -241,7 +260,9 @@ const ProductDetails = (props) => {
 
               <p>₹{price}</p>
             </div>
-            <div className={styled.checkoutbtndiv}>CHECKOUT →</div>
+            <div className={styled.checkoutbtndiv} onClick={gotoCheckout}>
+              CHECKOUT →
+            </div>
           </div>
         </div>
       </div>
