@@ -31,9 +31,9 @@ export const Landing = () => {
           let { city } = alldata;
           // console.log(city, postcode, country);
           setLocation(city);
-          setTimeout(() => {
-            navigate("/home");
-          }, 2000);
+          // setTimeout(() => {
+          //   navigate("/home");
+          // }, 2000);
         });
     }
     function onError(error) {

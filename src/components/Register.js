@@ -1,8 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Register.module.css";
 import Navbar from "../components/Navbar";
+import Footer from "./Footer";
+import { useNavigate } from "react-router-dom";
 
 export default function Register() {
+  const navigate = useNavigate();
+  const [form, setForm] = useState("");
+
+  const handleChange = (e) => {
+    // console.log(e.target.value)
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+  const handleClick = (e) => {
+    e.preventDefault();
+    // console.log(form);
+
+    fetch(` https://swiggydbjson.herokuapp.com/user`, {
+      method: "POST",
+      body: JSON.stringify(form),
+      headers: {
+        "content-type": "application/json",
+      },
+    });
+
+    navigate("/login");
+  };
+
+  const gotoLog = () => {
+    navigate("/login");
+  };
+
   return (
     <>
       <Navbar />
@@ -12,7 +41,7 @@ export default function Register() {
           <div className={styles.headText}>
             <p className={styles.hText}>Sign Up</p>
             <p>
-              or <span>login to your account</span>{" "}
+              or <span onClick={gotoLog}>login to your account</span>{" "}
             </p>
             <div className={styles.line}></div>
           </div>
@@ -27,22 +56,40 @@ export default function Register() {
           <input
             type="text"
             className={styles.entry}
+            name="phone"
             placeholder="Phone Number"
+            onChange={handleChange}
           />
 
-          <input type="text" className={styles.entry} placeholder="Name" />
+          <input
+            type="text"
+            className={styles.entry}
+            placeholder="Name"
+            onChange={handleChange}
+            name="username"
+          />
 
-          <input type="email" className={styles.entry} placeholder="Email" />
+          <input
+            type="email"
+            className={styles.entry}
+            placeholder="Email"
+            onChange={handleChange}
+            name="email"
+          />
 
           <input
             type="password"
             className={styles.entry}
             placeholder="Password"
+            onChange={handleChange}
+            name="password"
           />
         </div>
 
         <div className={styles.referal}>Have a referral code?</div>
-        <button className={styles.btn}>Continue</button>
+        <button className={styles.btn} onClick={handleClick}>
+          Continue
+        </button>
         <p className={styles.footText}>
           By creating an account, I accept the{" "}
           <span className={styles.terms}>
@@ -50,6 +97,7 @@ export default function Register() {
           </span>
         </p>
       </div>
+      <Footer />
     </>
   );
 }

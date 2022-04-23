@@ -13,6 +13,7 @@ import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import { ProductContext } from "../Context/SingleProduct";
+import Footer from "./Footer";
 
 const Product = () => {
   const { setSingle } = useContext(ProductContext);
@@ -155,6 +156,7 @@ const Product = () => {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 };

@@ -35,6 +35,7 @@
 }
 .maincont{
     width:100%;
+   
 }
 .rescount{
     font-size: 25px;;
@@ -96,6 +97,7 @@
     flex-wrap: wrap;
     margin-top: 50px;;
     background-color:#FFFFFF;
+    margin-bottom: 100px;
 }
 .itemdiv{
     width:298px;
