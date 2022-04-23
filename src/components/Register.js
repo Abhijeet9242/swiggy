@@ -35,67 +35,68 @@ export default function Register() {
   return (
     <>
       <Navbar />
-
-      <div className={styles.box}>
-        <div className={styles.header}>
-          <div className={styles.headText}>
-            <p className={styles.hText}>Sign Up</p>
-            <p>
-              or <span onClick={gotoLog}>login to your account</span>{" "}
-            </p>
-            <div className={styles.line}></div>
+      <div className={styles.regmaindiv}>
+        <div className={styles.box}>
+          <div className={styles.header}>
+            <div className={styles.headText}>
+              <p className={styles.hText}>Sign Up</p>
+              <p>
+                or <span onClick={gotoLog}>login to your account</span>{" "}
+              </p>
+              <div className={styles.line}></div>
+            </div>
+            <div className={styles.headImage}>
+              <img
+                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Image-login_btpq7r"
+                alt=""
+              />
+            </div>
           </div>
-          <div className={styles.headImage}>
-            <img
-              src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Image-login_btpq7r"
-              alt=""
+          <div className={styles.formField}>
+            <input
+              type="text"
+              className={styles.entry}
+              name="phone"
+              placeholder="Phone Number"
+              onChange={handleChange}
+            />
+
+            <input
+              type="text"
+              className={styles.entry}
+              placeholder="Name"
+              onChange={handleChange}
+              name="username"
+            />
+
+            <input
+              type="email"
+              className={styles.entry}
+              placeholder="Email"
+              onChange={handleChange}
+              name="email"
+            />
+
+            <input
+              type="password"
+              className={styles.entry}
+              placeholder="Password"
+              onChange={handleChange}
+              name="password"
             />
           </div>
+
+          <div className={styles.referal}>Have a referral code?</div>
+          <button className={styles.btn} onClick={handleClick}>
+            Continue
+          </button>
+          <p className={styles.footText}>
+            By creating an account, I accept the{" "}
+            <span className={styles.terms}>
+              Terms & Conditions & Privacy Policy
+            </span>
+          </p>
         </div>
-        <div className={styles.formField}>
-          <input
-            type="text"
-            className={styles.entry}
-            name="phone"
-            placeholder="Phone Number"
-            onChange={handleChange}
-          />
-
-          <input
-            type="text"
-            className={styles.entry}
-            placeholder="Name"
-            onChange={handleChange}
-            name="username"
-          />
-
-          <input
-            type="email"
-            className={styles.entry}
-            placeholder="Email"
-            onChange={handleChange}
-            name="email"
-          />
-
-          <input
-            type="password"
-            className={styles.entry}
-            placeholder="Password"
-            onChange={handleChange}
-            name="password"
-          />
-        </div>
-
-        <div className={styles.referal}>Have a referral code?</div>
-        <button className={styles.btn} onClick={handleClick}>
-          Continue
-        </button>
-        <p className={styles.footText}>
-          By creating an account, I accept the{" "}
-          <span className={styles.terms}>
-            Terms & Conditions & Privacy Policy
-          </span>
-        </p>
       </div>
       <Footer />
     </>

@@ -83,6 +83,7 @@ const ProductDetails = (props) => {
   // console.log(res);
   // setMy(res);
   // setmyCart(res);
+
   const handleAddCart = (itemid) => {
     let res = proddetails.find((item) => {
       return item.id === itemid;

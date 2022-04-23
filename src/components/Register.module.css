@@ -5,11 +5,13 @@
        
     
 }
-body{
+/* body{
     background-color: #E5E8EA; 
+} */
+
+.regmaindiv{
+    background-color:#FFFFFF;
 }
-
-
     
     
     .box{
@@ -20,6 +22,8 @@ body{
     padding: 40px;
     margin-top: 140px;
     margin-bottom: 120px;
+    /* background-color: #E5E8EA;  */
+    /* border: 0.3px solid grey; */
    
     }
     .box:hover{

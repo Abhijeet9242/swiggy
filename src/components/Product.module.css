@@ -46,10 +46,11 @@
 .filterdiv{
     width:90%;
     /* border:1px solid red; */
-    height:50px;
+    height:70px;
     margin: auto;
     display: flex;
     border-bottom: 1px solid grey;
+  
 }
 .filterleft{
     width:20%;
@@ -83,6 +84,8 @@
     color: #686B7B;
     font-size: 16px;
     font-weight: 400;
+    width: 130px;
+    
 }
 
 
