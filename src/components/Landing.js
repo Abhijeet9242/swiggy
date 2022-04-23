@@ -69,7 +69,9 @@ export const Landing = () => {
                   />
                 </div>
                 <div className={styled.loginsign}>
-                  <button onClick={goLogin}>Login</button>
+                  <button className={styled.signinbtn} onClick={goLogin}>
+                    Login
+                  </button>
                   <button
                     style={{ background: "black", color: "white" }}
                     onClick={goRegister}

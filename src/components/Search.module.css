@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.ipdiv{
+    width:70%;
+    height:30px;
+  /* background-color: teal; */
+    margin-top: 90px;
+    margin-left: 22%;
+}
+.ipdiv > input{
+    width:80%;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+}
+::placeholder{
+    color:#686B7B;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+button{
+    width:10%;
+    height:50px;
+    font-size: 17px;
+    background-color: #60B246;
+    color:#FFFFFF;
+    border: none;
+}
