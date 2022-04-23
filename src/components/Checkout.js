@@ -5,12 +5,15 @@ import "./Checkout.css";
 import useEffect from "react";
 import { CartContext } from "../Context/CartContext";
 import { TotalPriceContext } from "../Context/TotalPrice";
+import { useNavigate } from "react-router-dom";
+import styled from "@emotion/styled";
 
 const Checkout = () => {
   //   const [cdata, setCdata] = useState([]);
+  const navigate = useNavigate();
 
   const { mycart, setmyCart } = useContext(CartContext);
-  const { price } = useContext(TotalPriceContext);
+  const { price, setPrice } = useContext(TotalPriceContext);
   const [cdata, setCdata] = useState([]);
 
   async function getMore() {
@@ -18,9 +21,9 @@ const Checkout = () => {
     let res = await cdata.json();
     // console.log(res);
 
-    // let totalprice = 0;
-    // res.map((e) => (totalprice = e.price + totalprice));
-    // setPrice(totalprice);
+    let totalprice = 0;
+    res.map((e) => (totalprice = e.price + totalprice));
+    setPrice(totalprice);
 
     // setmyCart(res);
 
@@ -28,6 +31,13 @@ const Checkout = () => {
   }
   getMore();
   //   console.log(mycart);
+  // console.log(price);
+  const handlePay = () => {
+    setTimeout(() => {
+      navigate("/success");
+    }, 2000);
+  };
+
   return (
     <>
       <Navbar />
@@ -108,11 +118,9 @@ const Checkout = () => {
                   </div>
                 </div>
 
-                <input
-                  type="submit"
-                  value="Continue to checkout"
-                  className="btn"
-                />
+                <div onClick={handlePay} className="paydiv">
+                  PAY
+                </div>
               </form>
             </div>
           </div>
@@ -124,13 +132,23 @@ const Checkout = () => {
                   <i className="fa fa-shopping-cart"></i> <b>4</b>
                 </span>
               </h4>
-
-              {cdata.map((item, i) => (
-                <p key={i}>
+              {cdata.map((item) => (
+                <p>
                   <span>{item.name}</span>{" "}
-                  <span class="price">${item.price}</span>
+                  <span class="price">₹{item.price}</span>
                 </p>
               ))}
+
+              {/* <p>
+                <a href="#">Product 2</a> <span class="price">$5</span>
+              </p>
+              <p>
+                <a href="#">Product 3</a> <span class="price">$8</span>
+              </p>
+              <p>
+                <a href="#">Product 4</a> <span class="price">$2</span>
+              </p> */}
+              <hr />
 
               <hr />
               <p>
