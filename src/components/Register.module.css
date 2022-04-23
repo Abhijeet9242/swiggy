@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+       
+    
+}
+body{
+    background-color: #E5E8EA; 
+}
+
+
+    
+    
+    .box{
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 5px 10px 5px #868787;
+    padding: 40px;
+    margin-top: 140px;
+   
+    
+    
+    }
+    
+    .header{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+    }
+    
+    
+    .hText{
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 450;
+    }
+    span{
+        color: rgb(252,128,99);
+        font-weight: 500;
+    
+    }
+    
+    .line{
+        height: 1px;
+        width: 30px;
+        border: 1px solid black;
+    }
+    
+    .headImage{
+    height: 100px;
+    width: 100px;
+    }
+    
+    .headImage > img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    /* .formField{
+        width: 100%;
+    } */
+    
+     .entry{
+        width:60%;
+        height: 25px;
+        border: 0.5px solid rgb(162,163,172);
+        display: flex;
+        padding: 20px;
+        border-radius: 2px;
+        text-align: left;
+        justify-content:left;
+        margin-left: -1%;
+    }
+     
+/*   
+     input{
+        width:200px;
+    }  */
+    
+    .entry input{
+        /* width: 5%; */
+        border: none;
+        outline: none;
+        font-size: 18px;
+    }
+    
+    .referal{
+        color: rgb(93,173,232);
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn{
+        width: 370px;;
+        margin-top: 7px;
+        background-color: #60B246;
+        border: none;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        font-weight: 500;
+    }
+    
+    .footText{
+        font-size: 12px;
+        color: rgb(162,163,172);
+    }
+    .terms{
+        color: black;
+        font-weight: 500;
+    }

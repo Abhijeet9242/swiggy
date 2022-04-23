@@ -1,53 +1,6 @@
 {
   "cart": [
-    {
-      "id": 19,
-      "category": "Recommended",
-      "name": "Chicken Grilled Sandwich",
-      "price": 105,
-      "description": "",
-      "img_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/sftdzwl3qgoa70fwr9rw",
-      "veg": false,
-      "best_seller": true,
-      "restaurant_id": 3,
-      "des": "Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
-    },
-    {
-      "id": 20,
-      "category": "Recommended",
-      "name": "Spinach Corn Sandwich",
-      "price": 120,
-      "description": "",
-      "img_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ntnvsgugfeoqhglyhnii",
-      "veg": true,
-      "best_seller": false,
-      "restaurant_id": 3,
-      "des": "Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
-    },
-    {
-      "id": 21,
-      "category": "Recommended",
-      "name": "Omelette Cheese Sandwich",
-      "price": 110,
-      "description": "",
-      "img_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/mzbm7dp0rist5a6e6gxg",
-      "veg": false,
-      "best_seller": false,
-      "restaurant_id": 3,
-      "des": "Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
-    },
-    {
-      "id": 24,
-      "category": "Bakery",
-      "name": "Aloo Tikki With Choley",
-      "price": 135,
-      "description": "",
-      "img_url": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/wqrysplo0yzelnojrsrr",
-      "veg": true,
-      "best_seller": false,
-      "restaurant_id": 3,
-      "des": "Let the tanginess of cranberry and the strength of our brew refresh you with each sip."
-    }
+   
   ],
   "restaurants": [
     {

@@ -48,6 +48,13 @@ export const Landing = () => {
     }
   };
 
+  const goLogin = () => {
+    navigate("/login");
+  };
+  const goRegister = () => {
+    navigate("/register");
+  };
+
   return (
     <>
       <div className={styled.landing}>
@@ -62,8 +69,11 @@ export const Landing = () => {
                   />
                 </div>
                 <div className={styled.loginsign}>
-                  <button>Login</button>
-                  <button style={{ background: "black", color: "white" }}>
+                  <button onClick={goLogin}>Login</button>
+                  <button
+                    style={{ background: "black", color: "white" }}
+                    onClick={goRegister}
+                  >
                     Sign Up
                   </button>
                 </div>

@@ -13,6 +13,10 @@ const Navbar = () => {
   };
   // console.log(mycart);
 
+  const goLogin = () => {
+    navigate("/login");
+  };
+
   return (
     <>
       <div className={styled.mainnavdiv}>
@@ -47,7 +51,7 @@ const Navbar = () => {
               />
               Help
             </li>
-            <li>
+            <li onClick={goLogin}>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0e1UEWKCcHseAw12kOa_2DN2IJxpd-I7xm1aD7DfWTQ&s"
                 alt=""
