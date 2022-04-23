@@ -114,6 +114,11 @@
 color: gray;
 text-align: center;
 margin-top: 2%;
+font-size: 20px;
+}
+.locationcol{
+    color:#FC8019;
+    font-size: 22px;;
 }
 .toplefttitle{
     width:100%;

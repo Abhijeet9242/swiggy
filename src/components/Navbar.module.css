@@ -17,6 +17,11 @@
     right:0;
     z-index: 5;
 }
+.locspan{
+    font-size: 17px;
+    padding-left: 10px;
+    
+}
 
 .navleft{
     width:25%;

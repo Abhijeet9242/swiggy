@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import styled from "./ProductDetails.module.css";
-import { useSelector } from "react-redux";
+// import { useDispatch, useSelector } from "react-redux";
 // import styled "./ProductDetails.module.css";
 // import { useDispatch, useSelector } from "react-redux";
 // import { useEffect } from "react";
@@ -8,14 +8,23 @@ import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import Navbar from "./Navbar";
 import { ProductContext } from "../Context/SingleProduct";
+// import { addToCart } from "../Redux/Cart/action";
+// import { CartContext } from "../Context/CartContext";
+// import { ProductDetailsContext } from "../Context/ProductDetails";
 
 const ProductDetails = (props) => {
+  // const { proddetails, setProddetails } = useContext(ProductDetailsContext);
+
+  // const { mycart, setmyCart } = useContext(CartContext);
+  const [mycart, setmyCart] = useState([]);
+
   const { single } = useContext(ProductContext);
   const [proddetails, setProddetails] = useState([]);
+  const [price, setPrice] = useState(0);
+  // const dispatch = useDispatch();
+  // const [cartdis, setCartdis] = useState([]);
 
-  let a = [];
-  a = proddetails;
-  console.log(a);
+  // const mycartdata = useSelector((state) => state.cartState.cartdata);
 
   let params = useParams();
 
@@ -50,6 +59,66 @@ const ProductDetails = (props) => {
     });
     setProddetails(res);
   };
+  const handleProductCatotwo = (catoname) => {
+    let res = proddetails.filter((item) => {
+      return item.category.toLowerCase() === catoname.toLowerCase();
+    });
+    setProddetails(res);
+  };
+
+  const handleVeg = (catoname) => {
+    // console.log(catoname);
+    let res = proddetails.filter((item) => {
+      return item.veg === catoname;
+    });
+    // console.log(res);
+    setProddetails(res);
+  };
+
+  //handling cart
+  // const handleAddCart = (itemid) => {
+  //   let res = proddetails.find((item) => {
+  //     return item.id === itemid;
+  //   });
+  // console.log(res);
+  // setMy(res);
+  // setmyCart(res);
+  const handleAddCart = (itemid) => {
+    let res = proddetails.find((item) => {
+      return item.id === itemid;
+    });
+
+    fetch(` http://localhost:3001/cart`, {
+      method: "POST",
+      body: JSON.stringify(res),
+      headers: {
+        "content-type": "application/json",
+      },
+    }).then(() => {
+      getMore();
+    });
+  };
+
+  async function getMore() {
+    let cdata = await fetch("http://localhost:3001/cart");
+    let res = await cdata.json();
+    // console.log(res);
+
+    let totalprice = 0;
+    res.map((e) => (totalprice = e.price + totalprice));
+    setPrice(totalprice);
+
+    setmyCart(res);
+  }
+
+  //   localStorage.setItem("cart", JSON.stringify(res));
+  // };
+  // let cartres = localStorage.getItem("cart");
+  // console.log(cartres);
+
+  console.log(mycart.length);
+
+  //subtotal
 
   return (
     <>
@@ -101,7 +170,7 @@ const ProductDetails = (props) => {
           ))}
         </div>
         <div className={styled.searchingmaindiv}>
-          <div>VEG</div>
+          <div onClick={() => handleVeg(true)}>VEG</div>
         </div>
       </div>
       <div className={styled.proflexdiv}>
@@ -114,7 +183,9 @@ const ProductDetails = (props) => {
               <div onClick={() => handleProductCatoone(item.categories[1])}>
                 {item.categories[1]}
               </div>
-              <div>{item.categories[2]}</div>
+              <div onClick={() => handleProductCatotwo(item.categories[2])}>
+                {item.categories[2]}
+              </div>
             </div>
           ))}
         </div>
@@ -135,7 +206,12 @@ const ProductDetails = (props) => {
                     <img src={item.img_url} alt="" />
                   </div>
                   <div className={styled.rightbtndiv}>
-                    <button className={styled.rightbtndivflex}>ADD</button>
+                    <button
+                      className={styled.rightbtndivflex}
+                      onClick={() => handleAddCart(item.id)}
+                    >
+                      ADD
+                    </button>
                   </div>
                 </div>
               </div>
@@ -146,18 +222,23 @@ const ProductDetails = (props) => {
         <div className={styled.thirdpart}>
           <div className={styled.productcartdiv}>
             <h1 className={styled.carttitle}>Cart</h1>
-            <p className={styled.carttitleitem}>ITEMS</p>
-            <div className={styled.prodlistitem}>
-              <p>▣DISh name</p>
-              <p>
-                <button>+</button>
-                <button>-</button>
-              </p>
-              <p>₹</p>
-            </div>
+            <p className={styled.carttitleitem}>ITEMS {mycart.length}</p>
+
+            {mycart.map((item, i) => (
+              <div className={styled.prodlistitem} key={i}>
+                <p>▣{item.name}</p>
+                <p>
+                  <button>+</button>
+                  <button>-</button>
+                </p>
+                <p>₹{item.price}</p>
+              </div>
+            ))}
+
             <div className={styled.subtotaldiv}>
               <p>SubTotal</p>
-              <p>₹</p>
+
+              <p>₹{price}</p>
             </div>
             <div className={styled.checkoutbtndiv}>CHECKOUT →</div>
           </div>

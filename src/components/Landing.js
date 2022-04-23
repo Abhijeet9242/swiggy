@@ -1,7 +1,53 @@
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
+import { LocationContext } from "../Context/LocationContext";
 import styled from "./Landing.module.css";
 
 export const Landing = () => {
+  const navigate = useNavigate();
+  const { setLocation, location } = React.useContext(LocationContext);
+  // const handleLocation = () =>{
+  //   navigator.geolocation.getCurrentPosition(successCallback,errorCallback)
+  //   if(
+  // }
+
+  const handleLocation = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    } else {
+      console.log("location not found");
+    }
+
+    function onSuccess(position) {
+      // console.log(position);
+      let { latitude, longitude } = position.coords;
+
+      fetch(
+        `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=c2ab82e7d6484f4fa91f9e16e7bd159f`
+      )
+        .then((response) => response.json())
+        .then((result) => {
+          let alldata = result.results[0].components;
+          let { city } = alldata;
+          // console.log(city, postcode, country);
+          setLocation(city);
+          setTimeout(() => {
+            navigate("/home");
+          }, 2000);
+        });
+    }
+    function onError(error) {
+      // console.log(error);
+      if (error.code === 1) {
+        console.log("you denied the request");
+      } else if (error.code === 2) {
+        console.log("location not available");
+      } else {
+        console.log("something wentt wrong");
+      }
+    }
+  };
+
   return (
     <>
       <div className={styled.landing}>
@@ -30,15 +76,21 @@ export const Landing = () => {
               </p>
               <input
                 className={styled.topleftinput}
-                placeholder="Enter Your Location"
+                placeholder="Get Your Current City Location by Clicking on Find Food"
                 onChange={(e) => e.preventDefault()}
               />
-              <button className={styled.inputbtn}>FIND FOOD</button>
-              <h5 className={styled.topleftbottom}>POPULAR CITIES IN INDIA</h5>
+
+              <button className={styled.inputbtn} onClick={handleLocation}>
+                FIND FOOD
+              </button>
               <h5 className={styled.topleftbottom}>
+                Your City is:
+                <span className={styled.locationcol}>{location} </span>
+              </h5>
+              {/* <h5 className={styled.topleftbottom}>
                 MUMBAI DELHI GURGAON PUNE CHENNAI KOLKATA BANGLORE HYDERABAD &
                 MORE
-              </h5>
+              </h5> */}
             </div>
           </div>
           <div className={styled.topright}>
