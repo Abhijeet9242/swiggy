@@ -31,7 +31,7 @@ const ProductDetails = (props) => {
   useEffect(() => {
     const itemData = async () => {
       let result = await fetch(
-        `http://localhost:3001/item?restaurant_id=${params.id}`
+        `https://swiggydbjson.herokuapp.com/item?restaurant_id=${params.id}`
       );
       let res = await result.json();
       // console.log(res);
@@ -88,7 +88,7 @@ const ProductDetails = (props) => {
       return item.id === itemid;
     });
 
-    fetch(` http://localhost:3001/cart`, {
+    fetch(` https://swiggydbjson.herokuapp.com/cart`, {
       method: "POST",
       body: JSON.stringify(res),
       headers: {
@@ -100,7 +100,7 @@ const ProductDetails = (props) => {
   };
 
   async function getMore() {
-    let cdata = await fetch("http://localhost:3001/cart");
+    let cdata = await fetch("https://swiggydbjson.herokuapp.com/cart");
     let res = await cdata.json();
     // console.log(res);
 

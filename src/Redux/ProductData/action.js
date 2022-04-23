@@ -12,14 +12,14 @@ export const singleProductdata = (payload) => ({
 });
 
 export const getData = () => (dispatch) => {
-  fetch(" http://localhost:3001/restaurants")
+  fetch(" https://swiggydbjson.herokuapp.com/restaurants")
     .then((data) => data.json())
     // .then((res) => console.log(res));
     .then((res) => dispatch(storeProductData(res)));
 };
 
 export const sortDataLH = () => (dispatch) => {
-  fetch(" http://localhost:3001/restaurants")
+  fetch(" https://swiggydbjson.herokuapp.com/restaurants")
     .then((data) => data.json())
     // .then((res) => console.log(res));
     .then((res) =>
@@ -34,7 +34,7 @@ export const sortDataLH = () => (dispatch) => {
 };
 
 export const sortDataHL = () => (dispatch) => {
-  fetch(" http://localhost:3001/restaurants")
+  fetch(" https://swiggydbjson.herokuapp.com/restaurants")
     .then((data) => data.json())
     // .then((res) => console.log(res));
     .then((res) =>
@@ -49,7 +49,7 @@ export const sortDataHL = () => (dispatch) => {
 };
 
 export const sortDataRating = () => (dispatch) => {
-  fetch(" http://localhost:3001/restaurants")
+  fetch(" https://swiggydbjson.herokuapp.com/restaurants")
     .then((data) => data.json())
     // .then((res) => console.log(res));
     .then((res) =>
@@ -64,7 +64,7 @@ export const sortDataRating = () => (dispatch) => {
 };
 
 export const sortDelivery = () => (dispatch) => {
-  fetch(" http://localhost:3001/restaurants")
+  fetch(" https://swiggydbjson.herokuapp.com/restaurants")
     .then((data) => data.json())
     // .then((res) => console.log(res));
     .then((res) =>
