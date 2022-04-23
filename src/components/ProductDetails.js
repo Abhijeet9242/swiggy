@@ -8,19 +8,19 @@ import styled from "./ProductDetails.module.css";
 import { useParams } from "react-router-dom";
 import Navbar from "./Navbar";
 import { ProductContext } from "../Context/SingleProduct";
-// import { addToCart } from "../Redux/Cart/action";
-// import { CartContext } from "../Context/CartContext";
-// import { ProductDetailsContext } from "../Context/ProductDetails";
+import { TotalPriceContext } from "../Context/TotalPrice";
+import { CartContext } from "../Context/CartContext";
+import { ProductDetailsContext } from "../Context/ProductDetails";
 
 const ProductDetails = (props) => {
-  // const { proddetails, setProddetails } = useContext(ProductDetailsContext);
-
-  // const { mycart, setmyCart } = useContext(CartContext);
-  const [mycart, setmyCart] = useState([]);
-
+  const { proddetails, setProddetails } = useContext(ProductDetailsContext);
   const { single } = useContext(ProductContext);
-  const [proddetails, setProddetails] = useState([]);
-  const [price, setPrice] = useState(0);
+  const { mycart, setmyCart } = useContext(CartContext);
+  const { price, setPrice } = useContext(TotalPriceContext);
+  // const [mycart, setmyCart] = useState([]);
+
+  // const [proddetails, setProddetails] = useState([]);
+  // const [price, setPrice] = useState(0);
   // const dispatch = useDispatch();
   // const [cartdis, setCartdis] = useState([]);
 
@@ -39,7 +39,7 @@ const ProductDetails = (props) => {
       // setProddetails(res);
     };
     itemData();
-  }, []);
+  }, [params.id]);
 
   // console.log(proddetails);
 
@@ -227,7 +227,7 @@ const ProductDetails = (props) => {
             {mycart.map((item, i) => (
               <div className={styled.prodlistitem} key={i}>
                 <p>▣{item.name}</p>
-                <p>
+                <p className={styled.btnpara}>
                   <button>+</button>
                   <button>-</button>
                 </p>

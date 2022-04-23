@@ -5,7 +5,7 @@ import styled from "./Navbar.module.css";
 import { CartContext } from "../Context/CartContext";
 
 const Navbar = () => {
-  const { mycart, setmyCart } = useContext(CartContext);
+  const { mycart } = useContext(CartContext);
   const navigate = useNavigate();
   const { location } = useContext(LocationContext);
   const handleSearch = () => {
@@ -54,13 +54,16 @@ const Navbar = () => {
               />
               Sign In
             </li>
-            <li>
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgOV4VaRCekJshpiqupuO5PJFvPODOAlZ778Tzo_gnQA&s"
-                alt=""
-              />
-              Cart
-              <p>{mycart.length}ghrehrehr</p>
+            <li className={styled.carno}>
+              <span>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgOV4VaRCekJshpiqupuO5PJFvPODOAlZ778Tzo_gnQA&s"
+                  alt=""
+                />
+              </span>
+              <span>
+                <p className={styled.cartcout}>{mycart.length}</p>
+              </span>
             </li>
           </ul>
         </div>

@@ -6,8 +6,8 @@ export const TotalPriceContextProvider = ({ children }) => {
   const [price, setPrice] = useState(0);
 
   return (
-    <TotalPriceContextProvider value={{ price, setPrice }}>
+    <TotalPriceContext.Provider value={{ price, setPrice }}>
       {children}
-    </TotalPriceContextProvider>
+    </TotalPriceContext.Provider>
   );
 };

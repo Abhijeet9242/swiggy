@@ -10,23 +10,25 @@ import { ProductContextProvider } from "./Context/SingleProduct";
 import { LocationContextProvider } from "./Context/LocationContext";
 import { CartContextProvider } from "./Context/CartContext";
 import { ProductDetailsContextProvider } from "./Context/ProductDetails";
-// import { TotalPriceContextProvider } from "./Context/TotalPrice";
+import { TotalPriceContextProvider } from "./Context/TotalPrice";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <ProductDetailsContextProvider>
-        <CartContextProvider>
-          <LocationContextProvider>
-            <ProductContextProvider>
-              <Provider store={store}>
-                <App />
-              </Provider>
-            </ProductContextProvider>
-          </LocationContextProvider>
-        </CartContextProvider>
-      </ProductDetailsContextProvider>
+      <TotalPriceContextProvider>
+        <ProductDetailsContextProvider>
+          <CartContextProvider>
+            <LocationContextProvider>
+              <ProductContextProvider>
+                <Provider store={store}>
+                  <App />
+                </Provider>
+              </ProductContextProvider>
+            </LocationContextProvider>
+          </CartContextProvider>
+        </ProductDetailsContextProvider>
+      </TotalPriceContextProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
