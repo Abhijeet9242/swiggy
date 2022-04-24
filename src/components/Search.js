@@ -30,7 +30,7 @@ const Search = () => {
   return (
     <>
       <Navbar />
-      <div className={styled.ipdiv}>
+      <div classNameName={styled.ipdiv}>
         <input
           type="text"
           placeholder="Search for Restaurants"
