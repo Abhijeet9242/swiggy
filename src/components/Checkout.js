@@ -33,9 +33,7 @@ const Checkout = () => {
   //   console.log(mycart);
   // console.log(price);
   const handlePay = () => {
-    setTimeout(() => {
-      navigate("/success");
-    }, 2000);
+    navigate("/payment");
   };
 
   return (

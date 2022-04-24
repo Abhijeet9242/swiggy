@@ -1,0 +1,12 @@
+.processingdiv{
+    width:20%;
+    height: 200px;
+    /* border:1px solid red; */
+    margin: auto;
+    margin-top: 15%;
+}
+.processingdiv > img{
+    width:90%;
+    height: 90%;
+
+}

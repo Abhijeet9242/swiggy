@@ -10,6 +10,7 @@ import Register from "./components/Register";
 import Login from "./components/Login";
 import Checkout from "./components/Checkout";
 import Success from "./components/Success";
+import Payment from "./components/Payment";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/register" element={<Register />}></Route>
       <Route path="/login" element={<Login />}></Route>
       <Route path="/checkout" element={<Checkout />}></Route>
+      <Route path="/payment" element={<Payment />}></Route>
       <Route path="/home" element={<Product />}></Route>
       <Route path="/search" element={<Search />}></Route>
       <Route path="/product/:id" element={<ProductDetails />}></Route>

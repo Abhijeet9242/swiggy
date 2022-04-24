@@ -29,7 +29,7 @@ const Success = () => {
               <br /> we'll be in touch shortly!
             </p>
             <div className="gotohome" onClick={goTohome}>
-              Go To HOME
+              Continue Shopping
             </div>
           </div>
         </div>
