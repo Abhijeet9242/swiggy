@@ -17,6 +17,10 @@ const Navbar = () => {
     navigate("/login");
   };
 
+  const gotoCartpage = () => {
+    navigate("/checkout");
+  };
+
   return (
     <>
       <div className={styled.mainnavdiv}>
@@ -58,7 +62,7 @@ const Navbar = () => {
               />
               Sign In
             </li>
-            <li className={styled.carno}>
+            <li className={styled.carno} onClick={gotoCartpage}>
               <span>
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgOV4VaRCekJshpiqupuO5PJFvPODOAlZ778Tzo_gnQA&s"

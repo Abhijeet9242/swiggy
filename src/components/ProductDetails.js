@@ -6,12 +6,14 @@ import styled from "./ProductDetails.module.css";
 // import { useEffect } from "react";
 // import { getData } from "../Redux/ProductData/action";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
 import Navbar from "./Navbar";
 import { ProductContext } from "../Context/SingleProduct";
 import { TotalPriceContext } from "../Context/TotalPrice";
 import { CartContext } from "../Context/CartContext";
 import { ProductDetailsContext } from "../Context/ProductDetails";
-import { DriveEtaSharp } from "@material-ui/icons";
+// import { DriveEtaSharp } from "@material-ui/icons";
+import { getCartData } from "../Redux/Cart/action";
 
 const ProductDetails = (props) => {
   const navigate = useNavigate();
@@ -27,9 +29,8 @@ const ProductDetails = (props) => {
   // const dispatch = useDispatch();
   // const [cartdis, setCartdis] = useState([]);
 
-  // const mycartdata = useSelector((state) => state.cartState.cartdata);
-
   let params = useParams();
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const itemData = async () => {
@@ -87,6 +88,13 @@ const ProductDetails = (props) => {
   // setMy(res);
   // setmyCart(res);
 
+  // useEffect(() => {
+  //   dispatch(getCartData);
+  // }, []);
+
+  const mycartdata = useSelector((state) => state.cartState.cartdata);
+  console.log("mycartdata", mycartdata);
+
   const handleAddCart = (itemid) => {
     let res = proddetails.find((item) => {
       return item.id === itemid;
@@ -137,6 +145,10 @@ const ProductDetails = (props) => {
 
   const gotoCheckout = () => {
     navigate("/checkout");
+  };
+
+  const handleIncr = () => {
+    alert("Item already added");
   };
 
   return (
@@ -247,7 +259,9 @@ const ProductDetails = (props) => {
               <div className={styled.prodlistitem} key={i}>
                 <div>▣{item.name}</div>
                 <div>
-                  <button className={styled.incbtn}>+</button>
+                  <button className={styled.incbtn} onClick={handleIncr}>
+                    +
+                  </button>
                   <button className={styled.incbtn1}>-</button>
                 </div>
                 <div>{quant}</div>

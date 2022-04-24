@@ -219,6 +219,9 @@
     border: 1px solid grey;
     font: bolder;
 }
+.rightbtndivflex:hover{
+    cursor: pointer;
+}
 .rightbtndiv{
     margin-left: 40px;
 }
@@ -277,6 +280,9 @@
   margin-top: 45px;
     text-align: center;
     padding:20px
+}
+.checkoutbtndiv:hover{
+    cursor: pointer;
 }
 /* .carttitle{
     margin-top: 20px;

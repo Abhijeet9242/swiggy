@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import styled from "@emotion/styled";
 
 const Checkout = () => {
+  const [text, setText] = useState("");
   //   const [cdata, setCdata] = useState([]);
   const navigate = useNavigate();
 
@@ -32,7 +33,34 @@ const Checkout = () => {
   getMore();
   //   console.log(mycart);
   // console.log(price);
+
+  const handleIpchange = (e) => {
+    const { name, value } = e.target;
+
+    setText({ ...text, [name]: value });
+  };
+
   const handlePay = () => {
+    // console.log(data);
+    // if (
+    //   data.firstname !== "" ||
+    //   data.email !== "" ||
+    //   data.cardname !== "" ||
+    //   data.address !== "" ||
+    //   data.expmonth !== "" ||
+    //   data.cardnumber !== "" ||
+    //   data.city !== "" ||
+    //   data.cvv !== "" ||
+    //   data.expyear !== "" ||
+    //   data.state !== "" ||
+    //   data.zip !== ""
+    // ) {
+    //   navigate("/payment");
+    // } else {
+    //   navigate("/checkout");
+    // }
+    // navigate("/payment");
+
     navigate("/payment");
   };
 
@@ -51,28 +79,55 @@ const Checkout = () => {
                       <label for="fname">
                         <i className="fa fa-user"></i> Full Name
                       </label>
-                      <input type="text" id="fname" name="firstname" />
+                      <input
+                        onChange={handleIpchange}
+                        type="text"
+                        id="fname"
+                        name="firstname"
+                      />
                       <label for="email">
                         <i className="fa fa-envelope"></i> Email
                       </label>
-                      <input type="text" id="email" name="email" />
+                      <input
+                        onChange={handleIpchange}
+                        type="text"
+                        id="email"
+                        name="email"
+                      />
                       <label for="adr">
                         <i className="fa fa-address-card-o"></i> Address
                       </label>
-                      <input type="text" name="address" />
+                      <input
+                        onChange={handleIpchange}
+                        type="text"
+                        name="address"
+                      />
                       <label for="city">
                         <i className="fa fa-institution"></i> City
                       </label>
-                      <input type="text" name="city" />
+                      <input
+                        onChange={handleIpchange}
+                        type="text"
+                        name="city"
+                        required
+                      />
 
                       <div className="row">
                         <div className="col-50">
                           <label for="state">State</label>
-                          <input type="text" name="state" />
+                          <input
+                            onChange={handleIpchange}
+                            type="text"
+                            name="state"
+                          />
                         </div>
                         <div className="col-50">
                           <label for="zip">Zip</label>
-                          <input type="text" name="zip" />
+                          <input
+                            onChange={handleIpchange}
+                            type="text"
+                            name="zip"
+                          />
                         </div>
                       </div>
                     </div>
@@ -99,19 +154,43 @@ const Checkout = () => {
                         ></i>
                       </div>
                       <label for="cname">Name on Card</label>
-                      <input type="text" name="cardname" />
+                      <input
+                        onChange={handleIpchange}
+                        type="text"
+                        name="cardname"
+                      />
                       <label for="ccnum">Credit card number</label>
-                      <input type="text" id="ccnum" name="cardnumber" />
+                      <input
+                        onChange={handleIpchange}
+                        type="text"
+                        id="ccnum"
+                        name="cardnumber"
+                      />
                       <label for="expmonth">Exp Month</label>
-                      <input type="text" id="expmonth" name="expmonth" />
+                      <input
+                        onChange={handleIpchange}
+                        type="text"
+                        id="expmonth"
+                        name="expmonth"
+                      />
                       <div className="row">
                         <div className="col-50">
                           <label for="expyear">Exp Year</label>
-                          <input type="text" id="expyear" name="expyear" />
+                          <input
+                            onChange={handleIpchange}
+                            type="text"
+                            id="expyear"
+                            name="expyear"
+                          />
                         </div>
                         <div className="col-50">
                           <label for="cvv">CVV</label>
-                          <input type="text" id="cvv" name="cvv" />
+                          <input
+                            onChange={handleIpchange}
+                            type="text"
+                            id="cvv"
+                            name="cvv"
+                          />
                         </div>
                       </div>
                     </div>
