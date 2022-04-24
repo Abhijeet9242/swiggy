@@ -60,7 +60,6 @@ export default function Register() {
               placeholder="Phone Number"
               onChange={handleChange}
             />
-
             <input
               type="text"
               className={styles.entry}
@@ -75,6 +74,7 @@ export default function Register() {
               placeholder="Email"
               onChange={handleChange}
               name="email"
+              style={{ marginBottom: "20px" }}
             />
 
             <input
